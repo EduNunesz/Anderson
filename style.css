@@ -77,7 +77,9 @@ footer p {
 #cardIndexTres {
     margin-bottom: 5%;
     box-shadow: -6px 6px 4px;
+    transition-duration: 1s;
 }
+
 
 aside h2 {
     padding: 0px;
@@ -152,35 +154,51 @@ main h1 {
     justify-content: center;
     align-items: center;
 }
+
 .instagram button {
     border: none;
     border-radius: 10px;
     padding: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
-    box-shadow: 1px 10px 10px gray;
-    background-color: rgb(44, 44, 255);
+    background-color: #0B5ED7;
     color: white;
+    transition-duration: 1s;
 }
+
+.instagram button:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 50px rgb(145, 145, 145);
+}
+
 .facebook button {
     border: none;
     border-radius: 10px;
     padding: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
-    box-shadow: 1px 10px 10px gray;
-    background-color: rgb(44, 44, 255);
+    background-color: #0B5ED7;
     color: white;
+    transition-duration: 1s;
 }
+.facebook button:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 50px rgb(145, 145, 145);
+}
+
 .whatsapp button {
     border: none;
     border-radius: 10px;
     padding: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
-    box-shadow: 1px 10px 10px gray;
-    background-color: rgb(44, 44, 255);
+    background-color: #0B5ED7;
     color: white;
+    transition-duration: 1s;
+}
+.whatsapp button:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 50px rgb(145, 145, 145);
 }
 
 .facebook img {
@@ -192,30 +210,39 @@ main h1 {
     margin-bottom: 3%;
 }
 
-#h1Contato{
+#h1Contato {
     padding-bottom: 0%;
     margin: 2%;
     margin-bottom: 0%;
 }
-.carroIndex{
+
+.carroIndex {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(pexels-karolina-grabowska-7285914.jpg);
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-section img{
-    width: 30%;
-    margin: 5%;
-    margin-top: 10%;
+
+section img {
+    width: 40%;
+    margin: 10%;
     margin-bottom: 0px;
+    border-radius: 5%;
+    box-shadow: -5px 5px 20px rgb(192, 192, 192);
 }
+
+#logo {
+    width: 35%;
+    margin: 5%;
+}
+
 @media (min-width:960px) {
 
     .textMain {
@@ -269,30 +296,51 @@ section img{
         justify-content: center;
         align-items: center;
     }
+
     .instagram img {
         width: 50%;
     }
-    
+
     .facebook img {
         width: 50%;
     }
-    
+
     .whatsapp img {
         width: 46%;
     }
-    section{
+
+    section {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    section img{
-        align-items: center;
-        width: 15%;
-        margin: 0%;
-        margin-top: 3%;
+
+    section img {
+        width: 30%;
+        margin: 5%;
+        margin-right: 0px;
+        border-radius: 5%;
+        object-fit: cover;
     }
-    #cardIndexContato{
+
+    #cardIndexContato {
         width: 10%;
+    }
+
+    #logo {
+        width: 45%;
+    }
+
+    #cardIndexUm:hover {
+        transform: translateY(-20px);
+    }
+
+    #cardIndexDois:hover {
+        transform: translateY(-20px);
+    }
+
+    #cardIndexTres:hover {
+        transform: translateY(-20px);
     }
 }
