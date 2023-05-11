@@ -36,6 +36,15 @@ main {
 }
 
 aside {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;  
+    background-image: linear-gradient(#1a2e2e, #2E4F4F);
+}
+#asideIndex{
     color: white;
     width: 100%;
     background-image: linear-gradient(#1a2e2e, #2E4F4F);
@@ -45,7 +54,6 @@ aside {
     align-items: center;
     padding: 5%;
 }
-
 section {
     width: 100%;
     display: flex;
@@ -64,9 +72,7 @@ footer p {
     margin-left: 6px;
 }
 
-#cardproj {
-    margin-top: 3%;
-}
+
 
 #asideProj {
     margin-bottom: 0px;
@@ -242,6 +248,15 @@ section img {
     width: 35%;
     margin: 5%;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #8f8f8f;
+}
+
+
 
 @media (min-width:960px) {
 
@@ -342,5 +357,19 @@ section img {
 
     #cardIndexTres:hover {
         transform: translateY(-20px);
+    }
+
+    .cardsProj {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #cardAside{
+        width: 50%;
+    }
+    #cardAside img{
+        height: 400px;
     }
 }
