@@ -49,8 +49,8 @@
                             Contato
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Instagram</a></li>
-                            <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/a_e_a_reformas/">Instagram</a></li>
+                            <li><a class="dropdown-item" href="https://web.whatsapp.com/send?phone=5511913561021">WhatsApp</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -65,10 +65,18 @@
     <main>
         <div class="textMain">
             <img src="logoA&A.png" alt="" id="logo">
-            <h4>Construção e reparos em geral.</h4>
+            <h4>Construção e reformas em geral.</h4>
         </div>
-        <div class="carroIndex">
-            <div id="carouselExample" class="carousel slide">
+        <div class="carroMain">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="adParaCarrosel1_resized.jpg" class="d-block w-100" alt="...">
@@ -80,12 +88,12 @@
                         <img src="adParaCarrosel4.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -101,12 +109,12 @@
                 <img src="IMG-20230428-WA0014.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Drywall</h5>
-                    <p class="card-text">Forros, draywal e pintura.</p>
+                    <p class="card-text">Forros, draywal, pintura e revestimentos.</p>
                     <a href="drywall.html" class="btn btn-primary">Visualizar</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;" id="cardIndexDois">
-                <img src="IMG-20230428-WA0007.jpg" class="card-img-top" alt="...">
+                <img src="spotsQuarto.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Elétrica</h5>
                     <p class="card-text">Luminárias, spots e decoração com led.</p>
@@ -114,7 +122,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;" id="cardIndexTres">
-                <img src="IMG-20230428-WA0160.jpg" class="card-img-top" alt="...">
+                <img src="IMG-20230428-WA0143.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Construção</h5>
                     <p class="card-text">Reparos, marcenaria, banheiros e decoração.</p>
@@ -122,7 +130,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;" id="cardIndexTres">
-                <img src="IMG-20230428-WA0237.jpg" class="card-img-top" alt="...">
+                <img src="IMG-20230428-WA0079.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Hidraulica</h5>
                     <p class="card-text">Torneiras, lavabos, chuveiros e mais.</p>
@@ -133,10 +141,10 @@
     </aside>
     <section>
         <div class="card text-center mb-3" style="width: 18rem;" id="cardIndexContato">
-            <div class="card-body">
+            <div class="card-body" id="bodyCardIndexContato">
                 <h5 class="card-title">Interesse?</h5>
                 <p class="card-text">Entre em contato por WhatsApp, Intagram ou Facebook!</p>
-                <a href="contato.html" class="btn btn-primary" >Página de Contatos</a>
+                <a href="contato.html" class="btn btn-primary" id="botaoContato">Página de Contatos</a>
             </div>
         </div>
     </section>
